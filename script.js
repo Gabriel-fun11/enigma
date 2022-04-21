@@ -41,6 +41,7 @@ function fim() {
 
 function teste() {
     console.log ("Fez corretamente!")
+}
 
 /* socorro: */
 
