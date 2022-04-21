@@ -19,7 +19,7 @@ function rua(){
 
 function alerta() {
     var resposta = prompt ("As vozes num audio ecoaram, quais números devem ser?:")
-    if (resposta == "45971"){
+    if (resposta == "34971"){
         alert ("Você escutou os berros inquetos")
         alert ("                ENCRIPTADO                ")
     }
