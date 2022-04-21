@@ -28,7 +28,7 @@ function alerta() {
 function mapa() {
     var resposta = prompt("No passeio, na viagem, o céu que não escureceu, ali se encontrou, quem será eles? Olá! disse o mais velho, todos se animaram e riram, mas ninguém se lembrou, quando?")
     if (resposta == "18.01.22") {
-        alert("check")
+        alert("Tu soubes descriptografar, vejo muito bem. Tu vistes anteriormente, tu sabe o que fazer, a dica que tanto espera, já foi lida, por você.")
     }
 }
 
