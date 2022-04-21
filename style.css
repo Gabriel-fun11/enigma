@@ -1,0 +1,44 @@
+* {
+    background-color: rgb(37, 37, 37);
+}
+
+/* rgb(37, 37, 37) */
+
+#imagem {
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+}
+
+#imagem1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 220px;
+}
+
+#texto1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    color: rgb(36, 36, 36);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+#texto1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
+    color: rgb(36, 36, 36);
+    font-family: Arial, Helvetica, sans-serif;
+}
