@@ -1,44 +1,109 @@
-* {
-    background-color: rgb(37, 37, 37);
+body {
+  background-color: black;
+  color: white;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* rgb(37, 37, 37) */
-
-#imagem {
-    height: 500px;
-    width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 220px;
+h1 {
+  padding: 50px;
 }
 
-#imagem1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 220px;
+h4 {
+  padding: 0px;
+  font-size: 30px;
+  margin-left: 200px;
 }
 
-#texto1 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em;
-    color: rgb(36, 36, 36);
-    font-family: Arial, Helvetica, sans-serif;
+h4:hover {
+  cursor: pointer;
 }
 
-.video {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  gap: 20px;
+}
+.grid-item {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(14, 14, 14);
+  color: rgb(94, 94, 94);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 500px;
 }
 
-#texto1 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 5em;
-    color: rgb(36, 36, 36);
-    font-family: Arial, Helvetica, sans-serif;
+.animated-underline::before {
+  content: "_";
+  animation: pulse 1s linear infinite;
+}
+  
+@keyframes pulse {
+  0% {
+    color: rgb(0, 0, 0);
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+
+.div-info {
+  padding: 0px;
+  padding-top: 50px;
+  position: absolute;
+  flex-wrap: nowrap;
+}
+
+.info-img {
+  padding: 50px;
+  margin-top: 10%;
+}
+
+.bot-informacao {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding: 14px 300px;
+  outline-width: 0px;
+  transition-duration: 0.4s;
+  width: 1150%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(5, 5, 5);
+  color: white;
+}
+
+.bot-informacao:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+}
+
+a:link {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  font-style: normal;
+  text-decoration: none;
 }
