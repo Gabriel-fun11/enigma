@@ -1,0 +1,93 @@
+/* WTF is going on */
+
+body {
+  background-color: black;
+  color: white;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  padding: 50px;
+}
+
+h4 {
+  padding: 0px;
+  font-size: 30px;
+  margin-left: 200px;
+  transition-duration: 0.4s;
+}
+
+h4:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  gap: 20px;
+}
+.grid-item {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(14, 14, 14);
+  color: rgb(94, 94, 94);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 500px;
+}
+
+.animated-underline::before {
+  content: "_";
+  animation: pulse 1s linear infinite;
+}
+  
+@keyframes pulse {
+  0% {
+    color: rgb(0, 0, 0);
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+
+.div-info, .div-gov, .div-idep, .div-aespreita, .div-quieto, .div-lua, .div-sol, .div-estre, .div-info2 {
+  padding: 0px;
+  padding-top: 100px;
+  position: absolute;
+  flex-wrap: nowrap;
+}
+
+.info-img, .gov-img, .idep-img, .aespreita-img, .quieto-img, .lua-img, .sol-img, .estre-img, .info2-img{
+  margin-top: 20%;
+}
+
+.bot-informacao, .bot-gov, .bot-idep, .bot-aespreita, .bot-quieto, .bot-lua, .bot-sol, .bot-estre, .bot-info2 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 14px 216px;
+  outline-width: 0px;
+  transition-duration: 0.4s;
+  width: 1150%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(5, 5, 5);
+}
+
+.bot-informacao:hover, .bot-gov:hover, .bot-idep:hover, .bot-aespreita:hover, .bot-quieto:hover, .bot-lua:hover, .bot-sol:hover, .bot-estre:hover, .bot-info2:hover {
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+}
+
+a:link, a:visited, a:hover, a:active{
+  color: rgb(170, 170, 170);
+  font-style: normal;
+  text-decoration: none;
+}
